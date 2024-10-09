@@ -1,0 +1,80 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-body{
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #4e4e4e;
+  border-radius: 15px
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.stopwatch-time {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch-buttons button {
+  margin: 20px;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.stopwatch-buttons button:first-child {
+  background-color: rgb(14, 187, 14);
+  transition: background-color 0.3s;
+}
+
+.stopwatch-buttons button:first-child:hover {
+  background-color: #06a11ac5;
+}
+
+
+.stopwatch-buttons button:last-child {
+  background-color: red;
+  transition: background-color 0.3s;
+}
+
+.stopwatch-buttons button:last-child:hover {
+  background-color: #b30000b9;
+}
+
+.text-stopwatch{
+  font-size: 25px;
+}
